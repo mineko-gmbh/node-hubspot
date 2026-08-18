@@ -1,3 +1,20 @@
+> [!WARNING]
+> **This repository is archived and read-only.**
+>
+> It is a vendored fork of the third-party `node-hubspot` client. It was
+> **deliberately not migrated** during the CRM consolidation into
+> [crm-monorepo](https://github.com/mineko-gmbh/crm-monorepo), because it has no
+> consumers: nothing in the workspace declares a dependency on
+> `@mineko/node-hubspot`, including `node-hubspot-client`, which was often
+> assumed to depend on it.
+>
+> The CRM domain's HubSpot access goes through the official
+> [`@hubspot/api-client`](https://www.npmjs.com/package/@hubspot/api-client),
+> wrapped by `packages/crm-hubspot-client` in crm-monorepo.
+>
+> Last commit here predates the consolidation by roughly three years. Archived
+> for the record rather than because anything replaced it.
+
 # node-hubspot
 This project is deprecated. We recommand using instead the [official Node.js library](https://www.npmjs.com/package/@hubspot/api-client). 
 
